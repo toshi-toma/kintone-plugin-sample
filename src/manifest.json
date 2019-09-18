@@ -1,0 +1,39 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": { 
+      "ja": "サンプルプラグイン",
+      "en": "sample plugin",
+      "zh": "插件的例子"
+  },
+  "description": { 
+      "ja": "これはサンプルプラグインです。",
+      "en": "This is sample plugin.",
+      "zh": "这是插件的例子"
+  },
+  "icon": "image/icon.png",
+  "homepage_url": { 
+      "ja": "https://example.com/jp/",
+      "en": "https://example.com/en-us/",
+      "zh": "https://example.com/cn/"
+  },
+  "desktop": {
+      "js": [
+          "js/customize.js"
+      ],
+      "css": [
+          "css/customize.css"
+      ]
+  },
+  "config": {
+      "html": "html/config.html",
+      "js": [
+          "js/config.js"
+      ],
+      "css": [
+          "css/config.css"
+      ],
+      "required_params": ["Param1", "Param2"]
+  }
+}
